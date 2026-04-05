@@ -8,18 +8,21 @@ useSeoMeta({
 </script>
 
 <template>
-  <div class="container">
-    <div class="text-center">
-      <h3>Welcome to the official Super Mario Odyssey Online Website</h3>
-      <iframe
-        width="818"
-        height="460"
-        src="https://www.youtube.com/embed/nXxnhvP_LEI"
-        title="Super Mario Odyssey Online Multiplayer is OUT NOW"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      />
+  <div>
+    <div class="mx-auto max-w-xl">
+      <h2 class="mb-4 text-center">
+        Welcome to the official Super Mario Odyssey Online Website
+      </h2>
+      <div class="aspect-video mb-4">
+        <iframe
+          class="size-full"
+          src="https://www.youtube.com/embed/nXxnhvP_LEI"
+          title="Super Mario Odyssey Online Multiplayer is OUT NOW"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        />
+      </div>
     </div>
     <ContentRenderer
       v-if="home"
@@ -30,4 +33,3 @@ useSeoMeta({
     </div>
   </div>
 </template>
-

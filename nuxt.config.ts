@@ -6,9 +6,14 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@nuxt/content",
   ],
-  css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
+  css: ["~/assets/css/main.css"],
   compatibilityDate: "2025-07-15",
+  vite: {
+    server: {
+      allowedHosts: true,
+    },
+  },
   eslint: {
     config: {
       stylistic: {
@@ -17,5 +22,4 @@ export default defineNuxtConfig({
       },
     },
   },
-
 });
