@@ -9,10 +9,10 @@ useSeoMeta({
 
 <template>
   <div>
-    <div class="mx-auto max-w-xl">
-      <h2 class="mb-4 text-center">
+    <div class="mx-auto max-w-xl text-4xl">
+      <h1 class="mb-4 mt-4 text-center">
         Welcome to the official Super Mario Odyssey Online Website
-      </h2>
+      </h1>
       <div class="aspect-video mb-4">
         <iframe
           class="size-full"
