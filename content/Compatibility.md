@@ -1,13 +1,13 @@
 ---
-title: 'Compatability'
+title: 'Compatibility'
 description: 'Hardware and emulators SMOO works best with.'
 ---
 
-# Compatability
+# Compatibility
 
 *This list does __not__ imply endorsement or support of any kind. It merely lists compatibility.*
 
-Discusses hardware and emulator compatability with SMOO. (What does this excerpt look like?)
+Discusses hardware and emulator compatibility with SMOO. (What does this excerpt look like?)
 
 <!--more-->
 
