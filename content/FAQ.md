@@ -4,7 +4,7 @@ description: 'Frequently asked questions and their solutions.'
 ---
 
 
-# FAQ
+<!-- # FAQ -->
 
 > *There is an alternate FAQ available at https://smoo.it/#/faq*
 

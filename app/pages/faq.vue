@@ -12,5 +12,6 @@ const { data: page } = await useAsyncData(`${faq}`, () => {
   Reference for this code:
   https://content.nuxt.com/docs/files/markdown#display-markdown
   -->
+  <h1>{{ page.title }}</h1>
   <ContentRenderer :value="page" />
 </template>
