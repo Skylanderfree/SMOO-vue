@@ -5,6 +5,7 @@ const { data: page } = await useAsyncData(`${faq}`, () => {
   // queryCollection returns a list, so we do need to get a single element.
   return queryCollection('content').path(`/faq`).first()
 })
+
 </script>
 
 <template>

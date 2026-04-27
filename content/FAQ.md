@@ -1,6 +1,6 @@
 ---
-title: 'FAQ'
-description: 'Frequently asked questions and their solutions.'
+title: "FAQ"
+description: "Frequently asked questions and their solutions."
 ---
 
 
@@ -41,7 +41,7 @@ There's a [list](https://smoo.it/#/servers)! There are also text and voice chann
 
 ::dropdown{title="My friend and I can't see each other!"}
 - Make sure the [server is online](https://smoo.it/#/servers).
-- Check your [debug menu](https://smoo.it/#/faq/101:~:text=Open/close%20%5BDebug%5D%20menu) for the `Socket Connection Status: Socket Connected` line.
+- Check your debug menu ( :s-icon{name="zl"} + :s-icon{name="up"} while unpaused) for the `Socket Connection Status: Socket Connected` line.
 - Get everyone to warp at least once.
 - If you are on emulator, make sure the profile you are using:
     - Has less than 10 characters in its name.
@@ -59,10 +59,19 @@ Check [smoo.it](https://smoo.it/#/faq/112) for instructions for public and priva
 ::
 
 ::dropdown{title="What are the controls?"}
-- Mod menu
-    - ![ZL]("/img/ZL.png"){class="w-6 h-6 inline"} + ![A]("/img/a.png"){class="w-6 h-6 inline"}
+- **Mod menu**
+    - **Open the menu:** :s-icon{name="zl"} / :s-icon{name="zr"} + :s-icon{name="a"}
+    - **¹ Open the debug menu:** :s-icon{name="zl"} / :s-icon{name="zr"} + :s-icon{name="up"}
+- **¹ Hide and Seek**
+    - **Enable H&S:** :s-icon{name="zl"} / :s-icon{name="zr"} + :s-icon{name="right"}
+    - **Disable H&S:** :s-icon{name="zl"} / :s-icon{name="zr"} + :s-icon{name="right"}
+    - **² Switch roles:** :s-icon{name="up"}
 
-Controls are listed at https://smoo.it/#/faq/101.
+:::alert{type="info" justify="text-left"}
+*¹ While the game is loaded and unpaused.*<br /><br />
+
+*² When Hide and Seek (or another gamemode) is enabled.*
+:::
 ::
 
 ---

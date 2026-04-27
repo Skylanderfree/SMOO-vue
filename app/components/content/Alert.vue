@@ -1,6 +1,6 @@
 <!-- Taken from the Nuxt documentation, https://content.nuxt.com/docs/files/markdown -->
 <script setup>
-const props = defineProps({ type: { type: String } })
+const props = defineProps({ type: { type: String }})
 
 const alertClass = computed(() => {
     return {
@@ -15,7 +15,7 @@ const alertClass = computed(() => {
 <template>
     <!-- Give this a bit more padding outside the colored radius -->
     <div class="py-6">
-        <div class="text-black p-2 border dark:text-white rounded text-center" :class="alertClass">
+        <div class="text-black p-2 border dark:text-white rounded" :class="alertClass">
             <slot mdc-unwrap="p" />
         </div>
     </div>
