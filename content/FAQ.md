@@ -9,16 +9,14 @@ description: 'Frequently asked questions and their solutions.'
 > *There is an alternate FAQ available at https://smoo.it/#/faq*
 
 ::dropdown{title="Do emulators work with this mod?"}
-Anything that can play Switch games *should* work with this mod, but make sure you are __not__ using the default profile if you use an emulator.
-
-Our [Compatibility](/compatibility) page should list each one.
+Anything that can play Switch games *should* work with this mod, but make sure you are __not__ using the default profile if you use an emulator. Our [Compatibility](/compatibility) page should list each one.
 ::
 
 ::dropdown{title="How do I get SMOO?"}
 The latest official release of the mod can be found [here](https://github.com/CraftyBoss/SuperMarioOdysseyOnline/releases/latest).
 ::
 
-::dropdown{title="How do I get versions of SMOO?"}
+::dropdown{title="How do I get a certain version of SMOO?"}
 Join the [Discord](https://discord.gg/fJ3nxa2r4a) and ask for a specific version such as **Freeze Tag**, usually we can direct you to it.
 ::
 
@@ -60,20 +58,24 @@ Check [smoo.it](https://smoo.it/#/faq/112) for instructions for public and priva
 :::
 ::
 
-::dropdown{title=" What are the controls?"}
+::dropdown{title="What are the controls?"}
+- Mod menu
+    - ![ZL]("/img/ZL.png"){class="w-6 h-6 inline"} + ![A]("/img/a.png"){class="w-6 h-6 inline"}
+
 Controls are listed at https://smoo.it/#/faq/101.
 ::
 
+---
+---
+
 ::dropdown{title="How do I switch gamemodes?"}
-Go to the [SMOO menu](https://smoo.it/#/faq) and there should be options for some gamemodes.
+Go to the SMOO menu — see the **controls** section — and there should be options for some gamemode tweaks.
 
 :::alert{type="info"}
 **Note:** base SMOO does *not* have any gamemodes. It can only enable custom gravity.
 :::
 ::
 
----
----
 
 ::dropdown{title="I have the mod installed and I can see the SMOO icon but was never asked for an IP address"}
 
