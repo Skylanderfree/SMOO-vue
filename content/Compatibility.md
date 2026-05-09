@@ -3,13 +3,7 @@ title: 'Compatibility'
 description: 'Hardware and emulators SMOO works best with.'
 ---
 
-# Compatibility
-
 *This list does __not__ imply endorsement or support of any kind. It merely lists compatibility.*
-
-Discusses hardware and emulator compatibility with SMOO. (What does this excerpt look like?)
-
-<!--more-->
 
 - The **Nintendo Switch** is the official hardware for which the mod was designed for and works the most reliably on.
   - __Beware that the sole maintainer of Atmosphere has announced they are retiring from the hacking scene. There'll probably be forks but it is advised that you should keep your system firmware at 21.2.0 or under__

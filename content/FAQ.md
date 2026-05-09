@@ -3,22 +3,53 @@ title: "FAQ"
 description: "Frequently asked questions and their solutions."
 ---
 
-
-<!-- # FAQ -->
-
 > *There is an alternate FAQ available at https://smoo.it/#/faq*
 
-::dropdown{title="Do emulators work with this mod?"}
-Anything that can play Switch games *should* work with this mod, but make sure you are __not__ using the default profile if you use an emulator. Our [Compatibility](/compatibility) page should list each one.
-::
-
 ::dropdown{title="How do I get SMOO?"}
+**Official release:**
+<br />
 The latest official release of the mod can be found [here](https://github.com/CraftyBoss/SuperMarioOdysseyOnline/releases/latest).
-::
-
-::dropdown{title="How do I get a certain version of SMOO?"}
+<br />
+<br />
+**Variations and gamemodes:**
+<br />
 Join the [Discord](https://discord.gg/fJ3nxa2r4a) and ask for a specific version such as **Freeze Tag**, usually we can direct you to it.
 ::
+
+
+::dropdown{title="What are the controls?"}
+- **¹ Open the menu:** :s-icon{name="zl"} + :s-icon{name="a"} / :s-icon{name="b"}
+- **Hide and Seek**
+    - **Enable/Disable H&S:** :s-icon{name="l"} + :s-icon{name="left"}
+        - **Switch roles:** :s-icon{name="up"}
+        - **Reset time:** :s-icon{name="l"} + :s-icon{name="down"}
+        - **Lower time:** :s-icon{name="left"}
+            - *__Note:__ This may not go below 59 seconds. You can reset your time to go lower.*
+        - **Increase time:** :s-icon{name="right"}
+- **Open the debug menu:** :s-icon{name="zr"} + :s-icon{name="up"}
+    - **Next page:** :s-icon{name="zr"} + :s-icon{name="right"}
+    - **Previous page:** :s-icon{name="zr"} + :s-icon{name="left"}
+    - **Next player:** :s-icon{name="zl"} + :s-icon{name="right"}
+    - **Previous player:** :s-icon{name="zl"} + :s-icon{name="left"}
+
+:::alert{type="info" justify="text-left"}
+*¹ While the game is paused or on the main menu.*
+:::
+::
+
+::dropdown{title="Do emulators work with this mod?"}
+Anything that can play Switch games *should* work with this mod, but make sure you are __not__ using the default profile if you use an emulator. Our [compatibility](/compatibility) page should list each one.
+::
+
+
+::dropdown{title="How do I switch gamemodes?"}
+Go to the SMOO menu — see the **controls** section — and there should be options for some gamemode tweaks.
+
+:::alert{type="info"}
+**Note:** base SMOO does *not* have any gamemodes. It can only enable custom gravity.
+:::
+::
+
 
 ::dropdown{title="How can I fix my game crashing?"}
 Try a different version of SMOO such as [Sardines](https://github.com/DaDev123/Super-Mario-Odyssey-Online-EXTENSIONS/releases/tag/Sardines) by [**Amethyst-szs**](https://github.com/Amethyst-szs) or [SMOO+ (unaffiliated)](https://github.com/DaDev123/SMOO-Plus/releases) by [**SecretDev**](https://github.com/DaDev123).
@@ -27,6 +58,7 @@ Try a different version of SMOO such as [Sardines](https://github.com/DaDev123/S
 Be sure you ***replace SMOO with the new version***. It may not prompt you for a new IP address on launch.
 :::
 ::
+
 
 ---
 ---
@@ -58,32 +90,8 @@ Check [smoo.it](https://smoo.it/#/faq/112) for instructions for public and priva
 :::
 ::
 
-::dropdown{title="What are the controls?"}
-- **Mod menu**
-    - **Open the menu:** :s-icon{name="zl"} / :s-icon{name="zr"} + :s-icon{name="a"}
-    - **¹ Open the debug menu:** :s-icon{name="zl"} / :s-icon{name="zr"} + :s-icon{name="up"}
-- **¹ Hide and Seek**
-    - **Enable H&S:** :s-icon{name="zl"} / :s-icon{name="zr"} + :s-icon{name="right"}
-    - **Disable H&S:** :s-icon{name="zl"} / :s-icon{name="zr"} + :s-icon{name="right"}
-    - **² Switch roles:** :s-icon{name="up"}
-
-:::alert{type="info" justify="text-left"}
-*¹ While the game is loaded and unpaused.*<br /><br />
-
-*² When Hide and Seek (or another gamemode) is enabled.*
-:::
-::
-
 ---
 ---
-
-::dropdown{title="How do I switch gamemodes?"}
-Go to the SMOO menu — see the **controls** section — and there should be options for some gamemode tweaks.
-
-:::alert{type="info"}
-**Note:** base SMOO does *not* have any gamemodes. It can only enable custom gravity.
-:::
-::
 
 
 ::dropdown{title="I have the mod installed and I can see the SMOO icon but was never asked for an IP address"}
