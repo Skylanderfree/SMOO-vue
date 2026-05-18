@@ -14,10 +14,10 @@ You only need to select *one* of these setup options.
 ::::card{title="Download official server" to="https://github.com/Sanae6/SmoOnlineServer/releases"}
 *Additional versions for ARM and others are available.*
 :::::row{center}
-::::::card{title="Windows" to="https://github.com/Sanae6/SmoOnlineServer/releases/download/1.0.4/Server.exe" icon="i-lucide-computer"}
+::::::card{title="Windows" to="https://github.com/Sanae6/SmoOnlineServer/releases/latest/download/Server.exe" icon="i-lucide-computer"}
 x86_64
 ::::::
-::::::card{title="Linux" to="https://github.com/Sanae6/SmoOnlineServer/releases/download/1.0.4/Server" icon="i-lucide-gpu"}
+::::::card{title="Linux" to="https://github.com/Sanae6/SmoOnlineServer/releases/latest/download/Server" icon="i-lucide-gpu"}
 x86_64
 ::::::
 :::::
@@ -33,10 +33,10 @@ This server was created by Crafty, Sanae, and RCL (among others). It offers:
 ::::card{title="Download RCL's server version" to="https://github.com/Istador/SmoOnlineServer"}
 *Additional versions for ARM and others are available.*
 :::::row{center}
-::::::card{title="Windows" to="https://github.com/Istador/SmoOnlineServer/releases/download/1.0.5-rcl.10/Server.exe" icon="i-lucide-computer"}
+::::::card{title="Windows" to="https://github.com/Istador/SmoOnlineServer/releases/latest/download/Server.exe" icon="i-lucide-computer"}
 x86_64
 ::::::
-::::::card{title="Linux" to="https://github.com/Istador/SmoOnlineServer/releases/download/1.0.5-rcl.10/Server" icon="i-lucide-gpu"}
+::::::card{title="Linux" to="https://github.com/Istador/SmoOnlineServer/releases/latest/download/Server" icon="i-lucide-gpu"}
 x86_64
 ::::::
 :::::
@@ -54,10 +54,10 @@ These features are in **addition** to the official server features.
 *Additional versions for ARM and others are available.*
 
 :::::row{center}
-::::::card{title="Windows" to="https://github.com/GrafDimenzio/DSMOO/releases/download/v.0.1.0/DSMOOConsole.exe" icon="i-lucide-computer"}
+::::::card{title="Windows" to="https://github.com/GrafDimenzio/DSMOO/releases/latest/download/DSMOOConsole.exe" icon="i-lucide-computer"}
 x86_64
 ::::::
-::::::card{title="Linux" to="https://github.com/GrafDimenzio/DSMOO/releases/download/v.0.1.0/DSMOOConsole" icon="i-lucide-gpu"}
+::::::card{title="Linux" to="https://github.com/GrafDimenzio/DSMOO/releases/latest/download/DSMOOConsole" icon="i-lucide-gpu"}
 x86_64
 ::::::
 :::::
