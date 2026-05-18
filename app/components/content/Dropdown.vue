@@ -25,8 +25,9 @@ const props = defineProps({
                     <h1 class="text-2xl">{{ title }}</h1>
                 </UButton>
                 <template #content>
+                    <USeparator />
                     <div class="px-4 pb-4 p-2">
-                        <slot mdc-unwrap="p" />
+                        <slot mdc-unwrap="p" class="py-0"/>
                     </div>
                 </template>
             </UCollapsible>

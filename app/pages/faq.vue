@@ -5,13 +5,14 @@ const { data: page } = await useAsyncData(`${faq}`, () => {
   // queryCollection returns a list, so we do need to get a single element.
   return queryCollection('content').path(`/faq`).first()
 })
+
 </script>
 
+<!--
+Reference for this code:
+https://content.nuxt.com/docs/files/markdown#display-markdown
+-->
 <template>
-  <!--
-  Reference for this code:
-  https://content.nuxt.com/docs/files/markdown#display-markdown
-  -->
-  <h1 class="text-4xl py-8">{{ page.title }}</h1>
+  <Headline :text="page?.title" />
   <ContentRenderer :value="page" />
 </template>

@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const compatibility = useRoute().params.compatibility
 const { data: page } = await useAsyncData(`${compatibility}`, () => {
     // See faq.vue for `.first()` thoughts.
@@ -6,10 +6,11 @@ const { data: page } = await useAsyncData(`${compatibility}`, () => {
 })
 </script>
 
+<!--
+Reference for this code:
+https://content.nuxt.com/docs/files/markdown#display-markdown
+-->
 <template>
-  <!--
-  Reference for this code:
-  https://content.nuxt.com/docs/files/markdown#display-markdown
-  -->
+  <Headline :text="page?.title" />
   <ContentRenderer :value="page" />
 </template>
