@@ -79,3 +79,7 @@ A ground-up rework of the official server. It offers several unique features:
 You do *not* need to do this in order to host a server. This is for experts and is an optional way to install it. To use Docker on Windows, you will have to setup WSL (Windows Subsystem for Linux).
 :::
 ::
+
+# Running the server
+
+
