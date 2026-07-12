@@ -19,13 +19,14 @@ Join the [Discord](https://discord.gg/fJ3nxa2r4a) and ask for a specific version
 
 ::dropdown{title="What are the controls?"}
 - **¹ Open the menu:** :s-icon{name="zl"} + :s-icon{name="a"} / :s-icon{name="b"}
+- **Turn off background music:** :s-icon{name="l"} + :s-icon{name="up"}
 - **Hide and Seek**
     - **Enable/Disable H&S:** :s-icon{name="l"} + :s-icon{name="left"}
-        - **Switch roles:** :s-icon{name="up"}
-        - **Reset time:** :s-icon{name="l"} + :s-icon{name="down"}
-        - **Lower time:** :s-icon{name="left"}
+        - **Switch roles between:** :s-icon{name="hider"} | :s-icon{name="seeker"}: :s-icon{name="up"}
+        - **As** :s-icon{name="hider"} **Reset time:** :s-icon{name="l"} + :s-icon{name="down"}
+        - **As** :s-icon{name="hider"} **Lower time:** :s-icon{name="left"}
             - *__Note:__ This may not go below 59 seconds. You can reset your time to go lower.*
-        - **Increase time:** :s-icon{name="right"}
+        - **As** :s-icon{name="hider"} **Increase time:** :s-icon{name="right"}
 - **Open the debug menu:** :s-icon{name="zr"} + :s-icon{name="up"}
     - **Next page:** :s-icon{name="zr"} + :s-icon{name="right"}
     - **Previous page:** :s-icon{name="zr"} + :s-icon{name="left"}
