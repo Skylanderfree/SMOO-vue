@@ -103,6 +103,7 @@ Make sure that your game version is on `1.0.0`
 Right-click Super Mario Odyssey and select `Open Mods Directory`
 ![Ryu Config](img/ryu-config.png)
 :::::
+
 :::::c-card
 Extract the ZIP 
 ![Ryu Import](img/yuzu-import.png)
@@ -115,19 +116,34 @@ Extract the ZIP
 Right-click Super Mario Odyssey and select `Configure Game`
 ![Yuzu Config](img/yuzu-config.png)
 :::::
+
 :::::c-card
 Select `Import Mod from ZIP` 
 ![Yuzu Import](img/yuzu-import.png)
 :::::
-::::
 
-:::
+- Use the **Emulators.zip** of SMOO which include [Sardines](https://github.com/DaDev123/Super-Mario-Odyssey-Online-EXTENSIONS/releases/tag/Sardines) or [Freeze Tag](https://github.com/DaDev123/Super-Mario-Odyssey-Online-EXTENSIONS/releases/tag/Freeze.Tag) by [**Amethyst-szs**](https://github.com/Amethyst-szs).
+::::
 ::
 
 ::dropdown{title="Joining servers"}
-:::alert{type="critical" align="center"}
-[TODO]{style="color: orange;"}
-:::
+
+::::alert{type="info"}
+**Emulator and Switch players can connect and play with each other in the same server.**
+::::
+
+- When you launch the game for the first time with the mod, you'll be asked to enter an IP address and port using any of the public servers that are available but, if you choose to, you can also host a private server(link goes here) if needed.
+
+::::row{center}
+:::::c-card{description="IP Address"}
+![SMOO IP](/img/smoo_ip.jpg)
+:::::
+:::::c-card{description="Port"}
+![SMOO Port](/img/smoo_port.jpg)
+:::::
+::::
+
+
 ::
 
 ::dropdown{title="Compiling the mod from source (advanced)"}

@@ -22,10 +22,16 @@ const items = computed<NavigationMenuItem[]>(() => [
     label: "Host",
     to: "/host",
     active: route.path.startsWith("/host"),
-  }, {
+  }, 
+  {
     label: "FAQ",
     to: "/faq",
     active: route.path.startsWith("/faq"),
+  },
+  {
+    label: "Compatibility",
+    to: "/compatibility",
+    active: route.path.startsWith("/compatibility"),
   },
 ]);
 </script>
