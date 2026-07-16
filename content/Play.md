@@ -105,9 +105,17 @@ Right-click Super Mario Odyssey and select `Open Mods Directory`
 :::::
 
 :::::c-card
-Extract the ZIP 
-![Ryu Import](img/yuzu-import.png)
+Insert the extracted ZIP into the directory
+![Ryu Folder](img/ryu_directory.png)
 :::::
+- Use the **Emulators.zip** of SMOO which include [Sardines](https://github.com/DaDev123/Super-Mario-Odyssey-Online-EXTENSIONS/releases/tag/Sardines) or [Freeze Tag](https://github.com/DaDev123/Super-Mario-Odyssey-Online-EXTENSIONS/releases/tag/Freeze.Tag) by [**Amethyst-szs**](https://github.com/Amethyst-szs).
+
+:::::c-card
+Enable SMOO in `Manage Mods`
+![Ryu Mods](img/ryu_mods.png)
+:::::
+
+- You are all set!
 ::::
 
 ::::dropdown{title="Yuzu-based / Other"}
@@ -138,6 +146,7 @@ Select `Import Mod from ZIP`
 :::::c-card{description="IP Address"}
 ![SMOO IP](/img/smoo_ip.jpg)
 :::::
+
 :::::c-card{description="Port"}
 ![SMOO Port](/img/smoo_port.jpg)
 :::::

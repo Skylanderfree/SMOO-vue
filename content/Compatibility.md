@@ -6,7 +6,6 @@ description: 'Hardware and emulators SMOO works best with.'
 *This list does __not__ imply endorsement or support of any kind. It merely lists compatibility.*
 
 - The **Nintendo Switch** is the official hardware for which the mod was designed for and works the most reliably on.
-  - __Beware that the sole maintainer of Atmosphere has announced they are retiring from the hacking scene. There'll probably be forks but it is advised that you should keep your system firmware at 21.2.0 or under__
 - ~~**Yuzu**~~ has the least issues we've heard of and since it's not being updated in the future, we don't think any new issues will arise.
   - __It has been discontinued.__
 - ~~**Sudachi**~~ we've heard of some of the most success with. Eden was recommended by its creator upon its archival.
@@ -14,7 +13,7 @@ description: 'Hardware and emulators SMOO works best with.'
   - __It has also been discontinued.__
 - **Eden** seems to do the best for people who use it.
   - It is a fork of Yuzu.
-- **Ryujinx** is not very good for SMOO. It has netcode that clashes with SMOO somehow that causes issues.
+- **Ryujinx & its forks** are not very good for SMOO. It has netcode that clashes with SMOO somehow that causes issues.
   - It is the only option on Mac so we do recommend it in that case.
 - **Citron** has had issues, in our experience. We've heard of some people having success and some people having issues.
   - Citron has undergone some drama ( ¹ , ² ) in recent years that may be worth noting. They have been accused of "taking keys" without clearly saying so and the lead developer (Zephyron-Dev) may have a history ( ³ , ⁴ ).
