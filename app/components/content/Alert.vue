@@ -1,31 +1,34 @@
 <script setup>
-const props = defineProps({ type: { type: String, default: "info" }, title: { type: String, default: null } })
+const props = defineProps({ type: { type: String, default: "info" }, title: { type: String, default: null }, align: { type: String, default: null} })
 // I don't know why but we don't need to define the 
 
 const alertConfig = computed(() => {
     // default to nothing unless a title is given
     const iconScale = ((props.title) ? {icon: "size-11"} : null);
+    let cClass = "";
+    cClass = props.align ? (" text-" + props.align): "";
+
     const style = {
         critical: {
-            class: "bg-red-100 border-orange-200 dark:bg-red-900 dark:border-orange-800",
+            class: "bg-red-100 border-orange-200 dark:bg-red-900 dark:border-orange-800" + cClass,
             icon: "i-lucide-triangle-alert",
             title: props.title,
             ui: iconScale
         },
         warning: {
-            class: "bg-yellow-100 border-orange-200 dark:bg-yellow-800 dark:border-yellow-800",
+            class: "bg-yellow-100 border-orange-200 dark:bg-yellow-800 dark:border-yellow-800" + cClass,
             icon: "i-lucide-circle-alert",
             title: props.title,
             ui: iconScale
         },
         info: {
-            class: "bg-blue-100 border-blue-200 dark:bg-blue-900 dark:border-blue-800",
+            class: "bg-blue-100 border-blue-200 dark:bg-blue-900 dark:border-blue-800" + cClass,
             icon: "i-lucide-info",
             title: props.title,
             ui: iconScale
         },
         success: {
-            class: "bg-green-100 border-green-200 dark:bg-green-900 dark:border-green-800",
+            class: "bg-green-100 border-green-200 dark:bg-green-900 dark:border-green-800" + cClass,
             icon: "i-lucide-circle-check",
             title: props.title,
             ui: iconScale
@@ -41,7 +44,7 @@ For larger icon:
 <UAlert :title="alertConfig.title" :icon="alertConfig.icon" class="text-black dark:text-white" :class="alertConfig.class" :ui=alertConfig.ui>
 -->
 <template>
-    <UAlert :title="alertConfig.title" :icon="alertConfig.icon" class="text-black dark:text-white" :class="alertConfig.class" :ui="alertConfig.ui">
+    <UAlert :title="alertConfig.title" :icon="alertConfig.icon" class="m-5 justify-self-center object-center w-2/3 text-black dark:text-white" :class="alertConfig.class" :ui="alertConfig.ui">
         <template #description>
             <!-- Use #title above to use the content below to change the alert title and #description for the description -->
             <slot mdc-unwrap="p" />

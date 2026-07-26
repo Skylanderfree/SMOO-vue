@@ -17,7 +17,7 @@ const props = defineProps({
 
 <template>
     <div>
-        <div class="rounded-lg border border-default w-full mt-12">
+        <div class="rounded-lg border border-default w-full my-12">
             <UCollapsible class="flex flex-col gap-2">
                 <UButton class="group p-4" color="white" variant="subtle" :trailing-icon="icon" :ui="{
                     trailingIcon: `group-data-[state=open]:rotate-180 transition-transform duration-200 w-${iconSize} h-${iconSize}`
