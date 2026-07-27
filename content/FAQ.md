@@ -111,5 +111,5 @@ Most likely:
 ::
 
 ::dropdown{title="What do I do if I still have questions?"}
-If your questions aren't answered by the website or pinned messages in our [Discord](https://discord.gg/fJ3nxa2r4a).
+If your questions aren't answered by this website or pinned messages in our [Discord](https://discord.gg/fJ3nxa2r4a), feel free to ask in the dedicated `help` channels.
 ::
