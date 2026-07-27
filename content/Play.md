@@ -190,10 +190,10 @@ Make sure that SMOO is enabled in `Configure Game`
 ::::
 
 :::alert{type="critical" align="center"}
-[Never use the **RECONNECT TO SERVER** tab as it may result the game crashing or not working at all]{style="color: orange;"}
+[Never use the **RECONNECT TO SERVER** tab as it may result the game crashing or not working at all.]{style="color: orange;"}
 :::
 
-- Once you're finished please close your game and relauch it to connect to the server.
+- Once you're finished please close your game and relaunch it to connect to the server.
 
 
 
