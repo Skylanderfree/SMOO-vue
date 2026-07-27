@@ -113,7 +113,7 @@ Make sure that your game version is on `1.0.0`
 
 :::::c-card
 Right-click Super Mario Odyssey and select `Open Mods Directory`
-![Ryu Config](img/ryu-config.png)
+![Ryu Config](img/ryu_config.png)
 :::::
 
 :::::c-card
