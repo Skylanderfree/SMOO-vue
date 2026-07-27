@@ -6,14 +6,19 @@ description: "Frequently asked questions and their solutions."
 > *There is an alternate FAQ available at https://smoo.it/#/faq*
 
 ::dropdown{title="How do I get SMOO?"}
-**Official release:**
+**Official Release:**
 <br />
 The latest official release of the mod can be found [here](https://github.com/CraftyBoss/SuperMarioOdysseyOnline/releases/latest).
 <br />
 <br />
-**Variations and gamemodes:**
+**Variations & gamemodes:**
 <br />
-Join the [Discord](https://discord.gg/fJ3nxa2r4a) and ask for a specific version such as **Freeze Tag**, usually we can direct you to it.
+You can get these other gamemodes by [**Amethyst-szs**](https://github.com/Amethyst-szs) which are [Sardines](https://github.com/DaDev123/Super-Mario-Odyssey-Online-EXTENSIONS/releases/tag/Sardines) or [Freeze Tag](https://github.com/DaDev123/Super-Mario-Odyssey-Online-EXTENSIONS/releases/tag/Freeze.Tag).
+<br />
+<br />
+**Other gamemodes:**
+<br />
+Join the [Discord](https://discord.gg/fJ3nxa2r4a) to ask for any other specific gamemodes, usually we can direct you to it.
 ::
 
 
