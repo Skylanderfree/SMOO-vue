@@ -1,5 +1,5 @@
 <script setup>
-const props = defineProps({ type: { type: String, default: "info" }, title: { type: String, default: null }, align: { type: String, default: null} })
+const props = defineProps({ type: { type: String, default: "info" }, title: { type: String, default: null }, align: { type: String, default: "center"} })
 // I don't know why but we don't need to define the 
 
 const alertConfig = computed(() => {

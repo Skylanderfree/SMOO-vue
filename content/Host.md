@@ -13,7 +13,7 @@ You only need to select *one* of these setup options.
 :::row
 ::::card{title="Download official server" to="https://github.com/Sanae6/SmoOnlineServer/releases"}
 *Additional versions for ARM and others are available.*
-:::::row{center}
+:::::row
 ::::::card{title="Windows" to="https://github.com/Sanae6/SmoOnlineServer/releases/latest/download/Server.exe" icon="i-lucide-computer"}
 x86_64
 ::::::
@@ -30,9 +30,9 @@ This server was created by Crafty, Sanae, and RCL (among others). It offers:
 
 
 
-::::card{title="Download RCL's server version" to="https://github.com/Istador/SmoOnlineServer"}
+::::card{title="Download RCL's server version" to="https://github.com/Istador/SmoOnlineServer/releases"}
 *Additional versions for ARM and others are available.*
-:::::row{center}
+:::::row
 ::::::card{title="Windows" to="https://github.com/Istador/SmoOnlineServer/releases/latest/download/Server.exe" icon="i-lucide-computer"}
 x86_64
 ::::::
@@ -53,7 +53,7 @@ These features are in **addition** to the official server features.
 ::::card{title="Download GrafDimenzio's server version" to="https://github.com/GrafDimenzio/DSMOO/releases"}
 *Additional versions for ARM and others are available.*
 
-:::::row{center}
+:::::row
 ::::::card{title="Windows" to="https://github.com/GrafDimenzio/DSMOO/releases/latest/download/DSMOOConsole.exe" icon="i-lucide-computer"}
 x86_64
 ::::::
@@ -68,6 +68,10 @@ A ground-up rework of the official server. It offers several unique features:
     - Supports extra features offered by [SMOO+](https://github.com/DaDev123/SMOO-Plus), a fork of SMOO.
     - Experimental replay support
 - Option to prevent hiders from seeing each other
+
+:::::alert{type="warning"}
+**May be less stable.**
+:::::
 
 ::::
 :::

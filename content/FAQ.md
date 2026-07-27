@@ -27,7 +27,7 @@ Join the [Discord](https://discord.gg/fJ3nxa2r4a) to ask for any other specific 
 - **Turn off background music:** :s-icon{name="l"} + :s-icon{name="up"}
 - **Hide and Seek**
     - **Enable/Disable H&S:** :s-icon{name="l"} + :s-icon{name="left"}
-        - **Switch roles between:** :s-icon{name="hider"} | :s-icon{name="seeker"}: :s-icon{name="up"}
+        - **Switch roles between:** :s-icon{name="hider"} ⇆ :s-icon{name="seeker"}: :s-icon{name="up"}
         - **As** :s-icon{name="hider"} **Reset time:** :s-icon{name="l"} + :s-icon{name="down"}
         - **As** :s-icon{name="hider"} **Lower time:** :s-icon{name="left"}
             - *__Note:__ This may not go below 59 seconds. You can reset your time to go lower.*

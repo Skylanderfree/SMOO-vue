@@ -1,7 +1,7 @@
 <script setup lang="ts">
 // simple arg to center the prop if they want
-const props = defineProps({ center: { type: Boolean, default: false } });
-const addClass = ((props.center) ? "justify-center" : null)
+const props = defineProps({ uncenter: { type: Boolean, default: false } });
+const addClass = ((props.uncenter) ? null : "justify-center")
 </script>
 
 <template>

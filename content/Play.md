@@ -22,7 +22,7 @@ To do this, press :s-icon{name="plus"} on the game on the home screen and pull u
 If you're already on version `1.0.0`, you can skip the downgrading process and move to Installing SMOO.
 If you're on ***any other version***, you'll need to use the **Odyssey Downgrader**.
 
-::::row{center}
+::::row
 :::::c-card{description="Ready"}
 ![Good version](/img/smo_v1.png)
 > You're on `1.0.0`
@@ -60,11 +60,11 @@ To get started, make sure:
 - Open the **hbmenu** in screenshots :s-icon{name="screenshot"} .
 - Launch `Odyssey Downgrade`:
 
-::::row{center}
+::::row
 ![Odyssey Downgrade Applet](/img/downgrade_applet.jpg)
 ::::
 
-::::row{center}
+::::row
 :::::c-card{description="Patch not installed"}
 ![Patch not installed](/img/downgrade_not_ready.jpg)
 > Select 'Add downgrade'
@@ -158,7 +158,7 @@ Make sure that SMOO is enabled in `Configure Game`
 
 - When you launch the game for the first time with the mod, you'll be asked to enter an IP address and port using any of the public servers that are available but, if you choose to, you can also host a private server(link goes here) if needed.
 
-::::row{center}
+::::row
 :::::c-card{description="IP Address"}
 ![SMOO IP](/img/smoo_ip.jpg)
 :::::
@@ -173,13 +173,13 @@ Make sure that SMOO is enabled in `Configure Game`
 
 - To switch servers go to `Online Server Settings`
 
-::::row{center}
+::::row
 ![SMOO Options](/img/smoo_options.jpg)
 ::::
 
 - Then select these options
 
-::::row{center}
+::::row
 :::::c-card{description="Change IP Address"}
 ![SMOO IP Alt](/img/smoo_ip2.jpg)
 :::::
