@@ -9,7 +9,7 @@
 
 ## Editors
 - [@Skylanderfree](https://github.com/Skylanderfree)
-
+- [@2Fast2Cool](https://github.com/2Fast2cool)
 ## Installation
 
 TODO
