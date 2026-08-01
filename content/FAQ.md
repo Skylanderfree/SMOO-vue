@@ -6,14 +6,19 @@ description: "Frequently asked questions and their solutions."
 > *There is an alternate FAQ available at https://smoo.it/#/faq*
 
 ::dropdown{title="How do I get SMOO?"}
-**Official release:**
+**Official Release:**
 <br />
 The latest official release of the mod can be found [here](https://github.com/CraftyBoss/SuperMarioOdysseyOnline/releases/latest).
 <br />
 <br />
-**Variations and gamemodes:**
+**Variations & gamemodes:**
 <br />
-Join the [Discord](https://discord.gg/fJ3nxa2r4a) and ask for a specific version such as **Freeze Tag**, usually we can direct you to it.
+You can get these other gamemodes by [**Amethyst-szs**](https://github.com/Amethyst-szs) which are [Sardines](https://github.com/DaDev123/Super-Mario-Odyssey-Online-EXTENSIONS/releases/tag/Sardines) or [Freeze Tag](https://github.com/DaDev123/Super-Mario-Odyssey-Online-EXTENSIONS/releases/tag/Freeze.Tag).
+<br />
+<br />
+**Other gamemodes:**
+<br />
+Join the [Discord](https://discord.gg/fJ3nxa2r4a) to ask for any other specific gamemodes, usually we can direct you to it.
 ::
 
 
@@ -22,7 +27,7 @@ Join the [Discord](https://discord.gg/fJ3nxa2r4a) and ask for a specific version
 - **Turn off background music:** :s-icon{name="l"} + :s-icon{name="up"}
 - **Hide and Seek**
     - **Enable/Disable H&S:** :s-icon{name="l"} + :s-icon{name="left"}
-        - **Switch roles between:** :s-icon{name="hider"} | :s-icon{name="seeker"}: :s-icon{name="up"}
+        - **Switch roles between:** :s-icon{name="hider"} ⇆ :s-icon{name="seeker"}: :s-icon{name="up"}
         - **As** :s-icon{name="hider"} **Reset time:** :s-icon{name="l"} + :s-icon{name="down"}
         - **As** :s-icon{name="hider"} **Lower time:** :s-icon{name="left"}
             - *__Note:__ This may not go below 59 seconds. You can reset your time to go lower.*
@@ -106,5 +111,5 @@ Most likely:
 ::
 
 ::dropdown{title="What do I do if I still have questions?"}
-If your questions aren't answered by the website or pinned messages in our [Discord](https://discord.gg/fJ3nxa2r4a).
+If your questions aren't answered by this website or pinned messages in our [Discord](https://discord.gg/fJ3nxa2r4a), feel free to ask in the dedicated `help` channels.
 ::

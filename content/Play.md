@@ -22,7 +22,7 @@ To do this, press :s-icon{name="plus"} on the game on the home screen and pull u
 If you're already on version `1.0.0`, you can skip the downgrading process and move to Installing SMOO.
 If you're on ***any other version***, you'll need to use the **Odyssey Downgrader**.
 
-::::row{center}
+::::row
 :::::c-card{description="Ready"}
 ![Good version](/img/smo_v1.png)
 > You're on `1.0.0`
@@ -60,15 +60,11 @@ To get started, make sure:
 - Open the **hbmenu** in screenshots :s-icon{name="screenshot"} .
 - Launch `Odyssey Downgrade`:
 
-::::row{center}
+::::row
 ![Odyssey Downgrade Applet](/img/downgrade_applet.jpg)
 ::::
 
-::::alert{type="info"}
-This will take 6 GB of space on your sd card since it applies as a mod.
-::::
-
-::::row{center}
+::::row
 :::::c-card{description="Patch not installed"}
 ![Patch not installed](/img/downgrade_not_ready.jpg)
 > Select 'Add downgrade'
@@ -83,13 +79,29 @@ This will take 6 GB of space on your sd card since it applies as a mod.
 ::::
 
 ::::alert{type="info"}
+This will take 6 GB of space on your sd card since it applies as a mod.
+::::
+
+::::alert{type="info"}
 If SMO crashes on launch please remove & reinsert the cartridge & try again.
 ::::
 
 ### Installing SMOO
-temp
-:::
+::::alert{type="info"}
+Make sure you have access of your Switch's SD card.
+::::
 
+- There are 2 different ways to install SMOO please select *one* of them
+
+::::dropdown{title="Atmosphere"}
+temp
+::::
+
+::::dropdown{title="SimpleModManager"}
+temp
+::::
+
+:::
 
 :::dropdown{title="Playing on an emulator"}
 
@@ -101,14 +113,13 @@ Make sure that your game version is on `1.0.0`
 
 :::::c-card
 Right-click Super Mario Odyssey and select `Open Mods Directory`
-![Ryu Config](img/ryu-config.png)
+![Ryu Config](img/ryu_config.png)
 :::::
 
 :::::c-card
 Insert the extracted ZIP into the directory
 ![Ryu Folder](img/ryu_directory.png)
 :::::
-- Use the **Emulators.zip** of SMOO which include [Sardines](https://github.com/DaDev123/Super-Mario-Odyssey-Online-EXTENSIONS/releases/tag/Sardines) or [Freeze Tag](https://github.com/DaDev123/Super-Mario-Odyssey-Online-EXTENSIONS/releases/tag/Freeze.Tag) by [**Amethyst-szs**](https://github.com/Amethyst-szs).
 
 :::::c-card
 Enable SMOO in `Manage Mods`
@@ -122,15 +133,20 @@ Enable SMOO in `Manage Mods`
 
 :::::c-card
 Right-click Super Mario Odyssey and select `Configure Game`
-![Yuzu Config](img/yuzu-config.png)
+![Yuzu Config](img/yuzu_config.png)
 :::::
 
 :::::c-card
 Select `Import Mod from ZIP` 
-![Yuzu Import](img/yuzu-import.png)
+![Yuzu Import](img/yuzu_import.png)
 :::::
 
-- Use the **Emulators.zip** of SMOO which include [Sardines](https://github.com/DaDev123/Super-Mario-Odyssey-Online-EXTENSIONS/releases/tag/Sardines) or [Freeze Tag](https://github.com/DaDev123/Super-Mario-Odyssey-Online-EXTENSIONS/releases/tag/Freeze.Tag) by [**Amethyst-szs**](https://github.com/Amethyst-szs).
+:::::c-card
+Make sure that SMOO is enabled in `Configure Game`
+![Yuzu Mods](img/yuzu_mods.png)
+:::::
+
+- You are all set!
 ::::
 ::
 
@@ -142,7 +158,7 @@ Select `Import Mod from ZIP`
 
 - When you launch the game for the first time with the mod, you'll be asked to enter an IP address and port using any of the public servers that are available but, if you choose to, you can also host a private server(link goes here) if needed.
 
-::::row{center}
+::::row
 :::::c-card{description="IP Address"}
 ![SMOO IP](/img/smoo_ip.jpg)
 :::::
@@ -151,6 +167,35 @@ Select `Import Mod from ZIP`
 ![SMOO Port](/img/smoo_port.jpg)
 :::::
 ::::
+
+:separator{label="Switching Servers"}
+
+
+- To switch servers go to `Online Server Settings`
+
+::::row
+![SMOO Options](/img/smoo_options.jpg)
+::::
+
+- Then select these options
+
+::::row
+:::::c-card{description="Change IP Address"}
+![SMOO IP Alt](/img/smoo_ip2.jpg)
+:::::
+
+:::::c-card{description="Change Server Port"}
+![SMOO Port Alt](/img/smoo_port2.jpg)
+:::::
+::::
+
+:::alert{type="critical" align="center"}
+[Never use the **RECONNECT TO SERVER** tab as it may result the game crashing or not working at all.]{style="color: orange;"}
+:::
+
+- Once you're finished please close your game and relaunch it to connect to the server.
+
+
 
 
 ::
