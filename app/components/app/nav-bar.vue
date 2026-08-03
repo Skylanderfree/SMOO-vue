@@ -23,7 +23,7 @@ const items = computed<NavigationMenuItem[]>(() => [
     to: "/host",
     active: route.path.startsWith("/host"),
   }, 
-  {
+  { 
     label: "FAQ",
     to: "/faq",
     active: route.path.startsWith("/faq"),
