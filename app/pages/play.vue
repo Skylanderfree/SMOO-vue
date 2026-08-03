@@ -3,7 +3,7 @@ const play = useRoute().params.play
 const { data: page } = await useAsyncData(`${play}`, () => {
     // Not 100% sure we have to get the first here, but I think
     // queryCollection returns a list, so we do need to get a single element.
-    return queryCollection('content').path(`/play`).first()
+    return queryCollection('content').path(`/docs/play`).first()
 })
 
 </script>

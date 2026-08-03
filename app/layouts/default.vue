@@ -3,14 +3,11 @@
 </script>
 
 <template>
-  <div>
+  <div class="min-h-screen">
     <AppNavBar />
+
     <main class="container mx-auto">
       <slot />
     </main>
   </div>
 </template>
-
-<style scoped>
-
-</style>
